@@ -249,4 +249,11 @@ footer .play .playFree img {
   width: 101%;
 }
 
+footer .reseaux img:hover {
+  opacity: 0.8;
+}
+footer .haveAccount:hover {
+  opacity: 0.8;
+}
+
 /*# sourceMappingURL=style.css.map */
