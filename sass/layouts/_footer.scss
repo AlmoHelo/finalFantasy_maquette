@@ -35,10 +35,8 @@ footer {
         .playFree {
             position: absolute;
             right: 0;
-            bottom: 0;
-            overflow: hidden;
+            bottom: -2px;
             width: 16%;
-
             img {
                 width: 101%;
             }
@@ -59,5 +57,33 @@ footer {
         &:hover {
             opacity: 0.8;
         }
+    }
+}
+
+.p-cv_moogle {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.playFree{
+    &:hover {
+        .p-cv_moogle {            
+            opacity: 1;
+            animation: voirMoogle 200ms ease-in-out forwards;
+        }
+    }
+
+}
+
+@keyframes voirMoogle {
+    from {
+        top: 0;
+        right: 0;
+    }
+
+    to {
+        bottom: 5px;
+        right: 110px;
     }
 }
