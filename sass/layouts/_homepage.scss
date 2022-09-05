@@ -1,0 +1,94 @@
+.fondEcranDiv {
+    height: 100%;
+    overflow: hidden;
+
+    .fondEcran {
+        position: relative;
+        width: 100%;
+    }
+
+    .fondEcran2 {
+        position: absolute;
+        z-index: 2;
+        top: -26%;
+        right: 0%;
+    }
+
+    .fondEcran3 {
+        position: absolute;
+        z-index: 3;
+        right: 0%;
+        top: -26%;
+    }
+
+    .fondEcran4 {
+        position: absolute;
+        z-index: 3;
+        right: 0%;
+        top: -26%;
+    }
+
+    .fondEcran5 {
+        position: absolute;
+        z-index: 3;
+        right: 0%;
+        top: -26%;
+    }
+
+    .fondEcran6 {
+        position: absolute;
+        z-index: 3;
+        right: 0%;
+        top: -26%;
+    }
+
+    .fondEcran7 {
+        position: absolute;
+        z-index: 3;
+        right: 0%;
+        top: 20%;
+    }
+}
+
+.homepageLogo {
+    width: 100%;
+    height: 90%;
+    top: 35px;
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.192);
+    .p-frt_head_xiv_text {
+        color: white;
+        font-size: 120%;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+        width: 32%;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .is-pc{
+        width: 38%;
+        margin-top: 1em;
+    }
+    .divBtn{
+        text-align: center;
+    }
+    .is-btn_hover__none{
+        width: 40%;
+    }
+    .attention{
+        width: 40%;
+        text-align: center;
+        color: white;
+        margin-top: 6em;
+        font-size: 22px;
+        .scroll_attention{
+            width: 20px;
+            margin-top: 1em;
+        }
+    }
+}
