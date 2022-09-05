@@ -52,6 +52,32 @@ table {
   border-spacing: 0;
 }
 
+header {
+  width: 100%;
+  height: 37px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo img {
+  height: 14px;
+  margin-top: 0.2em;
+  margin-left: 0.5em;
+}
+
+.regionNav {
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  width: 100px;
+  margin-right: 0.5em;
+}
+.regionNav .current-country {
+  display: flex;
+  justify-content: space-around;
+}
+
 footer {
   background-color: black;
   height: 40px;
