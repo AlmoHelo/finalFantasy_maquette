@@ -87,6 +87,7 @@ header .logo img {
 .fondEcranDiv .fondEcran {
   position: relative;
   width: 100%;
+  top: -5%;
 }
 .fondEcranDiv .fondEcran2 {
   position: absolute;
